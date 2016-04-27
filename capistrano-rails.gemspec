@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = "enm-capistrano-rails"
+  gem.name          = "eme-capistrano-rails"
   gem.version       = '1.1.6'
   gem.authors       = ["Tom Clements", "Lee Hambley", "Kir Shatrov"]
   gem.email         = ["seenmyfate@gmail.com", "lee.hambley@gmail.com", "shatrov@me.com"]
