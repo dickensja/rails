@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = "capistrano-rails"
+  gem.name          = "enm-capistrano-rails"
   gem.version       = '1.1.6'
   gem.authors       = ["Tom Clements", "Lee Hambley", "Kir Shatrov"]
   gem.email         = ["seenmyfate@gmail.com", "lee.hambley@gmail.com", "shatrov@me.com"]
@@ -16,6 +16,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'capistrano', '~> 3.4'
-  gem.add_dependency 'capistrano-bundler', '~> 1.1'
 
 end
